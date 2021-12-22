@@ -9,5 +9,6 @@ scalacOptions ++= Seq(
   "-explain-types", // Explain type errors in more detail.
   "-feature", // Emit warning and location for usages of features that should be imported explicitly.
   "-unchecked", // Enable additional warnings where generated code depends on assumptions.
-  "-Xfatal-warnings" // Fail the compilation if there are any warnings.
+  "-Xfatal-warnings", // Fail the compilation if there are any warnings.
+  "-language:postfixOps"
 )
